@@ -1,2 +1,8 @@
 git commit --amend --no-edit --date="Fri Nov 6 20:00:00 2015 -0600" 
+# trailing white spce does not matter
 git push -f origin master
+# or
+git push -f
+
+# replace with new commit message
+git commit --amend -m "an updated commit message" 
